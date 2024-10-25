@@ -4,7 +4,7 @@ import cart from "../assets/cart-shopping.svg";
 const CartWidget = () => {
   return (
     <>
-      <div className="cartIcon">
+      <div>
         <img src={cart} alt="cart" />
         <span>(10)</span>
       </div>
